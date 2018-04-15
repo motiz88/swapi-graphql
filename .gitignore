@@ -4,3 +4,5 @@
 /npm-debug.log
 /coverage
 /cache/data.json
+/public/stats.json
+/public/schema.js.map
