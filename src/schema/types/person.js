@@ -13,7 +13,7 @@ import {
   GraphQLInt,
   GraphQLObjectType,
   GraphQLString,
-} from 'graphql';
+} from 'graphql/type';
 
 import { globalIdField } from 'graphql-relay';
 
