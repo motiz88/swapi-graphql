@@ -20,12 +20,6 @@
   "options": {
     "mocha": "--require babel-register --require scripts/mocha-bootload src/**/__tests__/*.js"
   },
-  "babel": {
-    "optional": [
-      "runtime",
-      "es7.asyncFunctions"
-    ]
-  },
   "browserify": {
     "transform": [
       "babelify"
