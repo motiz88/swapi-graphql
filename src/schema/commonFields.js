@@ -8,7 +8,7 @@
  * @flow strict
  */
 
-import { GraphQLString } from 'graphql/type';
+import { GraphQLString } from 'graphql';
 
 // These two fields appear on all types, so let's only write them once.
 export function createdField(): any {

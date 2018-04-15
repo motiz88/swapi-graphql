@@ -16,7 +16,7 @@ import {
 
 import { getObjectsFromUrls } from './apiHelper';
 
-import { GraphQLInt, GraphQLList } from 'graphql/type';
+import { GraphQLInt, GraphQLList } from 'graphql';
 
 import type { GraphQLObjectType, GraphQLFieldConfig } from 'graphql';
 

@@ -14,7 +14,7 @@ import {
   GraphQLList,
   GraphQLObjectType,
   GraphQLSchema,
-} from 'graphql/type';
+} from 'graphql';
 
 import {
   fromGlobalId,
