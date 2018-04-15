@@ -20,11 +20,6 @@
   "options": {
     "mocha": "--require babel-register --require scripts/mocha-bootload src/**/__tests__/*.js"
   },
-  "browserify": {
-    "transform": [
-      "babelify"
-    ]
-  },
   "browserify-shim": {
     "react": "global:React"
   },
