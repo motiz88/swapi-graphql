@@ -2922,6 +2922,10 @@ graphql-relay@0.5.5:
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/graphql-relay/-/graphql-relay-0.5.5.tgz#d6815e6edd618e878d5d921c13fc66033ec867e2"
 
+graphql-relay@graphql/graphql-relay-js:
+  version "0.5.5"
+  resolved "https://codeload.github.com/graphql/graphql-relay-js/tar.gz/8055dfd534bc2c5f400ff4470974f74255f79c87"
+
 graphql@0.13.2:
   version "0.13.2"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.13.2.tgz#4c740ae3c222823e7004096f832e7b93b2108270"
