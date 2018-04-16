@@ -1,10 +1,15 @@
 const webpack = require('webpack');
+const path = require('path');
 
 module.exports = {
   mode: 'development',
   entry: ['./src/schema-proxy'],
   module: {
     rules: [
+      {
+        include: path.resolve('node_modules/graphql'),
+        sideEffects: false,
+      },
       {
         test: /\.js$/,
         // Exclude node_modules as usual, with one exception:
