@@ -12,10 +12,7 @@ module.exports = {
       },
       {
         test: /\.js$/,
-        // Exclude node_modules as usual, with one exception:
-        // Compile graphql-relay with Babel, because we're not using the
-        // precompiled version published to npm (see `alias` below).
-        exclude: /node_modules(?!\/graphql-relay\/src)/,
+        exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
           options: {
@@ -31,12 +28,6 @@ module.exports = {
         },
       },
     ],
-  },
-  resolve: {
-    alias: {
-      // https://github.com/graphql/graphql-relay-js/issues/208
-      'graphql-relay$': 'graphql-relay/src/index.js',
-    },
   },
   output: {
     path: __dirname + '/public',
