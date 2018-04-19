@@ -2918,13 +2918,9 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.4:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-graphql-relay@0.5.5:
+graphql-relay@motiz88/graphql-relay-js#publish-mjs:
   version "0.5.5"
-  resolved "https://registry.yarnpkg.com/graphql-relay/-/graphql-relay-0.5.5.tgz#d6815e6edd618e878d5d921c13fc66033ec867e2"
-
-graphql-relay@graphql/graphql-relay-js:
-  version "0.5.5"
-  resolved "https://codeload.github.com/graphql/graphql-relay-js/tar.gz/8055dfd534bc2c5f400ff4470974f74255f79c87"
+  resolved "https://codeload.github.com/motiz88/graphql-relay-js/tar.gz/62058ac241eef34994143d40393871849962258c"
 
 graphql@0.13.2:
   version "0.13.2"

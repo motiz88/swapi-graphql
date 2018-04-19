@@ -21,7 +21,8 @@
     "mocha": "--require babel-register --require scripts/mocha-bootload src/**/__tests__/*.js"
   },
   "scripts": {
-    "postinstall": "npm run download && npm run build",
+    "build-deps": "pushd node_modules/graphql-relay && npm run build && popd",
+    "postinstall": "npm run build-deps && npm run download && npm run build",
     "test": "npm run lint && npm run check && npm run testonly",
     "start": "node lib/server/main.js",
     "watch": "babel scripts/watch.js | node",
@@ -47,7 +48,7 @@
     "express": "^4.16.3",
     "express-graphql": "^0.6.12",
     "graphql": "0.13.2",
-    "graphql-relay": "graphql/graphql-relay-js"
+    "graphql-relay": "motiz88/graphql-relay-js#publish-mjs"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
