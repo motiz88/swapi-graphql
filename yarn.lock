@@ -2920,7 +2920,7 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.4:
 
 graphql-relay@motiz88/graphql-relay-js#publish-mjs:
   version "0.5.5"
-  resolved "https://codeload.github.com/motiz88/graphql-relay-js/tar.gz/62058ac241eef34994143d40393871849962258c"
+  resolved "https://codeload.github.com/motiz88/graphql-relay-js/tar.gz/efdb7ddfc8c7f00ec1fb3709d4c25f91a1809514"
 
 graphql@0.13.2:
   version "0.13.2"
